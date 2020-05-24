@@ -22,5 +22,4 @@ install:
     - composer install --dev
 script:
     - docker-compose -f docker-compose.yml up -d
-    - compo
-    - bin/phpunit
+    - cd symfony && composer install
