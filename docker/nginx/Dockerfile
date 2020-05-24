@@ -1,6 +1,6 @@
 FROM alpine:3.11
 
-LABEL maintainer="Janosch Kocsis <jk@coloso.de>"
+LABEL maintainer="Ahmed Samir"
 
 RUN addgroup -S www \
     && adduser -S -G www www
