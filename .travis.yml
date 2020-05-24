@@ -21,4 +21,5 @@ before_install:
 
 script:
     - docker-compose -f docker-compose.yml up -d
+    - cd symfony && touch .env
     - cd symfony && composer install
