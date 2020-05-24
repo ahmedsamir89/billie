@@ -18,8 +18,6 @@ before_install:
     - docker-compose -v
     - docker -v
     - composer self-update
-    - composer install --prefer-source --no-interaction --dev
-
 
 script:
     - docker-compose -f docker-compose.yml up -d
