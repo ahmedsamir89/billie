@@ -9,4 +9,3 @@ symfony/var/
 symfony/vendor/
 ###< symfony/framework-bundle ###
 README.md
-docker-compose.travis.yml
